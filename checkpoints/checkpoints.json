@@ -1,0 +1,59 @@
+{
+  "cp_000000": {
+    "id": "cp_000000",
+    "checkpoint_type": "architecture_design",
+    "title": "System Architecture Review",
+    "description": "Review the proposed microservices architecture for the e-commerce platform",
+    "ai_plan": {
+      "pattern": "microservices",
+      "services": [
+        "user-service",
+        "product-service",
+        "order-service",
+        "payment-service"
+      ],
+      "technology": "FastAPI + PostgreSQL + Redis + Docker"
+    },
+    "ai_reasoning": "Microservices architecture provides better scalability, maintainability, and team autonomy. Each service can be developed and deployed independently.",
+    "status": "approved",
+    "created_at": "2025-08-23T13:32:35.930698",
+    "updated_at": "2025-08-23T13:32:35.934988",
+    "human_feedback": "Architecture looks solid. Good choice of technologies and service separation.",
+    "human_decision": "approved",
+    "override_reason": null,
+    "metadata": {
+      "estimated_cost": "$5000/month",
+      "development_time": "3 months",
+      "team_size": "8 developers"
+    }
+  },
+  "cp_000001": {
+    "id": "cp_000001",
+    "checkpoint_type": "security_review",
+    "title": "Security Implementation Review",
+    "description": "Review security measures for user authentication and data protection",
+    "ai_plan": {
+      "authentication": "JWT + OAuth2",
+      "encryption": "AES-256",
+      "rate_limiting": "Redis-based",
+      "input_validation": "Pydantic models"
+    },
+    "ai_reasoning": "Comprehensive security implementation following OWASP guidelines with industry-standard encryption and authentication methods.",
+    "status": "awaiting_approval",
+    "created_at": "2025-08-23T13:32:35.934290",
+    "updated_at": "2025-08-23T13:32:35.934294",
+    "human_feedback": null,
+    "human_decision": null,
+    "override_reason": null,
+    "metadata": {
+      "security_audit": "Required",
+      "penetration_testing": "Recommended",
+      "compliance": "GDPR, SOC2"
+    }
+  },
+  "cp_000002": {
+    "id": "cp_000002",
+    "checkpoint_type": "architecture_design",
+    "title": "API Architecture Review",
+    "description": "Review the proposed FastAPI-based architecture",
+    "ai_plan": 

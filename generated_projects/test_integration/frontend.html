@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Platform</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .post { border: 1px solid #ddd; padding: 20px; margin: 20px 0; }
+        .form { background: #f5f5f5; padding: 20px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Platform</h1>
+        <div class="form">
+            <h2>Create Post</h2>
+            <input type="text" id="title" placeholder="Post Title">
+            <textarea id="content" placeholder="Post Content"></textarea>
+            <button onclick="createPost()">Create Post</button>
+        </div>
+        <div id="posts"></div>
+    </div>
+    <script>
+        async function createPost() {
+            const title = document.getElementById('title').value;
+            const content = document.getElementById('content').value;
+            // Post creation logic
+        }
+        async function loadPosts() {
+            // Load posts logic
+        }
+        loadPosts();
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-23T13:44:51.849122",
+      "role": "user",
+      "content": "Create a basic blog with posts, titles, content, and simple user authentication. Include create, read, update, delete for blog posts.\n",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:44:51.849237",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    }
+  ],
+  "code_context": {
+    "generated_projects/simple_blog/models.py": {
+      "content": "I can help you generate code. Here's a basic template:\n\n```python\ndef example_function():\n    # Your code here\n    pass\n```\n\nThis is a Python-specific solution.",
+      "language": "python",
+      "last_updated": "2025-08-23T13:44:51.849749",
+      "checksum": "21598846"
+    },
+    "generated_projects/simple_blog/main.py": {
+      "content": "I can help you generate code. Here's a basic template:\n\n```python\ndef example_function():\n    # Your code here\n    pass\n```\n\nThis is a Python-specific solution.",
+      "language": "python",
+      "last_updated": "2025-08-23T13:44:51.850068",
+      "checksum": "21598846"
+    },
+    "generated_projects/simple_blog/frontend.html": {
+      "content": "Here's a simple code structure:\n\n```python\nclass ExampleClass:\n    def __init__(self):\n        self.data = []\n    \n    def add_item(self, item):\n        self.data.append(item)\n```\n\nThis is a JavaScript/React-specific solution.",
+      "language": "html",
+      "last_updated": "2025-08-23T13:44:51.850287",
+      "checksum": "40797339"
+    }
+  },
+  "project_state": {},
+  "learning_memory": {}
+}

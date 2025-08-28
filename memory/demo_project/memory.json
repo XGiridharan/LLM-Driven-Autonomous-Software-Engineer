@@ -1,0 +1,206 @@
+{
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-23T12:03:41.470822",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:03:50.278704",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:35:05.139496",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:35:13.311851",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:38:34.451397",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:38:43.257461",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:40:11.092047",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:40:19.700145",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:41:28.642309",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:41:36.215926",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:42:48.412265",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:42:57.306865",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:44:35.013149",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T12:44:44.710484",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:32:32.062921",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:32:32.063025",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T20:21:01.998736",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T20:21:09.549563",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T20:22:41.218922",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T20:22:50.876625",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T20:27:01.362784",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T20:27:08.782911",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T22:43:43.389283",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T22:43:52.088342",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T22:45:01.393674",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T22:45:10.322702",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T22:46:37.405960",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-24T22:46:45.001557",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-28T08:24:38.575927",
+      "role": "user",
+      "content": "Create a todo list app with user authentication and CRUD operations",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-28T08:24:47.543402",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    }
+  ],
+  "code_context": {
+    "generated_projects/demo_project/models.py": {
+      "content": "```python\nimport os\nfrom sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\nfrom sqlalchemy.orm import declarative_base, sessionmaker, relationship\nfrom sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, func\nfrom sqlalchemy.ext.hybrid import hybrid_property\nfrom sqlalchemy.dialects.postgresql import UUID\nimport uuid\nfrom datetime import datetime\nfrom sqlalchemy import Index\n\n\nDATABASE_URL = os.environ.get(\"DATABASE_URL\", \"postgresql+asyncpg://user:password@localhost:5432/todo\")\n\nengine = create_async_engine(DATABASE_URL, echo=True)\nasync_session = sessionmaker(engine, expire_on_commit=False, class_=AsyncSession)\nBase = declarative_base()\n\n\nclass User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, nullable=False)\n    email = Column(String, unique=True, nullable=False)\n    password = Column(String, nullable=False)\n    created_at = Column(DateTime, default=datetime.utcnow)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)\n    todos = relationship(\"Todo\", back_populates=\"user\", cascade=\"all, delete-orphan\")\n\n    __table_args__ = (Index('ix_users_username_email', 'username', 'email'),)\n\n\nclass Todo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, nullable=False)\n    description = Column(String)\n    completed = Column(Boolean, default=False)\n    created_at = Column(DateTime, default=datetime.utcnow)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)\n    user_id = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    user = relationship(\"User\", back_populates=\"todos\")\n\n    __table_args__ = (Index('ix_todos_user_id_completed', 'user_id', 'completed'),)\n\n    @hybrid_property\n    def is_overdue(self):\n        return False # Add logic to check if todo is overdue\n\n\nasync def create_all():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\n\n```\n",
+      "language": "python",
+      "last_updated": "2025-08-28T08:25:00.955969",
+      "checksum": "49873106"
+    },
+    "generated_projects/demo_project/main.py": {
+      "content": "```python\nimport logging\nimport uvicorn\nfrom fastapi import FastAPI, Depends, HTTPException, status\nfrom fastapi.middleware.cors import CORSMiddleware\nfrom fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm\nfrom sqlalchemy.ext.asyncio import AsyncSession\nfrom pydantic import BaseModel, Field\nfrom typing import List\nfrom .models import User, Todo, async_session, create_all\nfrom .auth import authenticate_user, create_access_token\nfrom passlib.context import CryptContext\nimport os\nfrom datetime import datetime\n\n\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)\n\napp = FastAPI(title=\"Todo API\", description=\"A simple todo list API\", version=\"1.0.0\",redoc_url=\"/docs\")\n\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n\norigins = [\"*\"]\n\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n\n\nclass UserCreate(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)\n    email: str = Field(..., min_length=5, max_length=100)\n    password: str = Field(..., min_length=8)\n\n\nclass UserResponse(BaseModel):\n    id: int\n    username: str\n    email: str\n    created_at: datetime\n\n\nclass TodoCreate(BaseModel):\n    title: str = Field(..., min_length=3, max_length=100)\n    description: str | None = None\n    completed: bool = False\n\n\nclass TodoResponse(BaseModel):\n    id: int\n    title: str\n    description: str | None\n    completed: bool\n    created_at: datetime\n    user_id: int\n\n\nclass TodoUpdate(BaseModel):\n    title: str | None = None\n    description: str | None = None\n    completed: bool | None = None\n\n\n@app.on_event(\"startup\")\nasync def startup():\n    await create_all()\n\n\n@app.get(\"/health\", response_model=None)\nasync def health_check():\n    return {\"status\": \"ok\"}\n\n\n@app.post(\"/token\", response_model=UserResponse)\nasync def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):\n    user = await authenticate_user(form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\",\"id\":user.id,\"username\":user.username,\"email\":user.email,\"created_at\":user.created_at}\n\n\n@app.post(\"/users\", response_model=UserResponse, status_code=status.HTTP_201_CREATED)\nasync def create_user(user: UserCreate, db: AsyncSession = Depends(async_session)):\n    hashed_password = pwd_context.hash(user.password)\n    db_user = User(username=user.username, email=user.email, password=hashed_password)\n    db.add(db_user)\n    await db.commit()\n    await db.refresh(db_user)\n    return db_user\n\n\n@app.get(\"/users/me\", response_model=UserResponse)\nasync def get_current_user(user: User = Depends(authenticate_user)):\n    return user\n\n\n@app.get(\"/todos\", response_model=List[TodoResponse])\nasync def get_todos(db: AsyncSession = Depends(async_session), user: User = Depends(authenticate_user)):\n    todos = await db.execute(db.select(Todo).where(Todo.user_id == user.id))\n    return todos.scalars().all()\n\n\n@app.post(\"/todos\", response_model=TodoResponse, status_code=status.HTTP_201_CREATED)\nasync def create_todo(todo: TodoCreate, db: AsyncSession = Depends(async_session), user: User = Depends(authenticate_user)):\n    db_todo = Todo(title=todo.title, description=todo.description, completed=todo.completed, user_id=user.id)\n    db.add(db_todo)\n    await db.commit()\n    await db.refresh(db_todo)\n    return db_todo\n\n\n@app.get(\"/todos/{todo_id}\", response_model=TodoResponse)\nasync def get_todo(todo_id: int, db: AsyncSession = Depends(async_session), user: User = Depends(authenticate_user)):\n    todo = await db.get(Todo, todo_id)\n    if not todo or todo.user_id != user.id:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Todo not found\")\n    return todo\n\n\n@app.put(\"/todos/{todo_id}\", response_model=TodoResponse)\nasync def update_todo(todo_id: int, todo_update: TodoUpdate, db: AsyncSession = Depends(async_session), user: User = Depends(authenticate_user)):\n    todo = await db.get(Todo, todo_id)\n    if not todo or todo.user_id != user.id:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Todo not found\")\n    for key, value in todo_update.model_dump(exclude_unset=True).items():\n        setattr(todo, key, value)\n    await db.commit()\n    await db.refresh(todo)\n    return todo\n\n\n@app.delete(\"/todos/{todo_id}\", status_code=status.HTTP_204_NO_CONTENT)\nasync def delete_todo(todo_id: int, db: AsyncSession = Depends(async_session), user: User = Depends(authenticate_user)):\n    todo = await db.get(Todo, todo_id)\n    if not todo or todo.user_id != user.id:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Todo not found\")\n    await db.delete(todo)\n    await db.commit()\n\n\n\nif __name__ == \"__main__\":\n    uvicorn.run(\"main:app\", host=\"0.0.0.0\", port=int(os.environ.get(\"PORT\", 8000)), reload=True)\n\n```",
+      "language": "python",
+      "last_updated": "2025-08-28T08:25:11.547313",
+      "checksum": "80789190"
+    },
+    "generated_projects/demo_project/frontend.html": {
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Todo List App</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN\" crossorigin=\"anonymous\">\n    <style>\n        body { font-family: sans-serif; }\n        .container { max-width: 500px; margin: 50px auto; }\n        .todo-item { display: flex; align-items: center; margin-bottom: 10px; }\n        .todo-item input[type=\"checkbox\"] { margin-right: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <h1>Todo List</h1>\n        <div id=\"auth-section\" style=\"display:none;\">\n            <form id=\"login-form\">\n                <div class=\"mb-3\">\n                    <label for=\"username\" class=\"form-label\">Username</label>\n                    <input type=\"text\" class=\"form-control\" id=\"username\" required>\n                </div>\n                <div class=\"mb-3\">\n                    <label for=\"password\" class=\"form-label\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"password\" required>\n                </div>\n                <button type=\"submit\" class=\"btn btn-primary\">Login</button>\n            </form>\n            <form id=\"register-form\">\n                <div class=\"mb-3\">\n                    <label for=\"registerUsername\" class=\"form-label\">Username</label>\n                    <input type=\"text\" class=\"form-control\" id=\"registerUsername\" required>\n                </div>\n                <div class=\"mb-3\">\n                    <label for=\"registerEmail\" class=\"form-label\">Email</label>\n                    <input type=\"email\" class=\"form-control\" id=\"registerEmail\" required>\n                </div>\n                <div class=\"mb-3\">\n                    <label for=\"registerPassword\" class=\"form-label\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"registerPassword\" required>\n                </div>\n                <button type=\"submit\" class=\"btn btn-primary\">Register</button>\n            </form>\n        </div>\n        <div id=\"app-section\" style=\"display:none;\">\n            <form id=\"add-todo-form\">\n                <div class=\"mb-3\">\n                    <label for=\"todo-title\" class=\"form-label\">Title</label>\n                    <input type=\"text\" class=\"form-control\" id=\"todo-title\" required>\n                </div>\n                <div class=\"mb-3\">\n                    <label for=\"todo-description\" class=\"form-label\">Description</label>\n                    <textarea class=\"form-control\" id=\"todo-description\"></textarea>\n                </div>\n                <button type=\"submit\" class=\"btn btn-primary\">Add Todo</button>\n            </form>\n            <ul id=\"todo-list\"></ul>\n            <button id=\"logout-button\" class=\"btn btn-danger\">Logout</button>\n        </div>\n    </div>\n\n    <script>\n        const authSection = document.getElementById('auth-section');\n        const appSection = document.getElementById('app-section');\n        const loginForm = document.getElementById('login-form');\n        const registerForm = document.getElementById('register-form');\n        const addTodoForm = document.getElementById('add-todo-form');\n        const todoList = document.getElementById('todo-list');\n        const logoutButton = document.getElementById('logout-button');\n\n        let token = localStorage.getItem('token');\n\n        if (token) {\n            authSection.style.display = 'none';\n            appSection.style.display = 'block';\n            loadTodos();\n        } else {\n            authSection.style.display = 'block';\n            appSection.style.display = 'none';\n        }\n\n        loginForm.addEventListener('submit', async (e) => {\n            e.preventDefault();\n            const username = document.getElementById('username').value;\n            const password = document.getElementById('password').value;\n            try {\n                const response = await fetch('/token', {\n                    method: 'POST',\n                    headers: { 'Content-Type': 'application/json' },\n                    body: JSON.stringify({ username, password })\n                });\n                const data = await response.json();\n                localStorage.setItem('token', data.access_token);\n                authSection.style.display = 'none';\n                appSection.style.display = 'block';\n                loadTodos();\n            } catch (error) {\n                console.error('Login failed:', error);\n            }\n        });\n\n        registerForm.addEventListener('submit', async (e) => {\n          e.preventDefault();\n          // Add register logic here\n        });\n\n        addTodoForm.addEventListener('submit', async (e) => {\n            e.preventDefault();\n            const title = document.getElementById('todo-title').value;\n            const description = document.getElementById('todo-description').value;\n            try {\n                const response = await fetch('/todos', {\n                    method: 'POST',\n                    headers: {\n                        'Content-Type': 'application/json',\n                        'Authorization': `Bearer ${token}`\n                    },\n                    body: JSON.stringify({ title, description })\n                });\n                const data = await response.json();\n                loadTodos();\n            } catch (error) {\n                console.error('Add todo failed:', error);\n            }\n        });\n\n        logoutButton.addEventListener('click', () => {\n            localStorage.removeItem('token');\n            authSection.style.display = 'block';\n            appSection.style.display = 'none';\n        });\n\n\n        async function loadTodos() {\n            try {\n                const response = await fetch('/todos', {\n                    headers: { 'Authorization': `Bearer ${token}` }\n                });\n                const todos = await response.json();\n                todoList.innerHTML = '';\n                todos.forEach(todo => {\n                    const li = document.createElement('li');\n                    li.classList.add('todo-item');\n                    li.innerHTML = `\n                        <input type=\"checkbox\" id=\"todo-${todo.id}\" ${todo.completed ? 'checked' : ''}>\n                        <label for=\"todo-${todo.id}\">${todo.title}</label>\n                        <button class=\"btn btn-danger\" onclick=\"deleteTodo(${todo.id})\">Delete</button>\n                    `;\n                    todoList.appendChild(li);\n                });\n            } catch (error) {\n                console.error('Load todos failed:', error);\n            }\n        }\n\n        async function deleteTodo(id) {\n            try {\n                const response = await fetch(`/todos/${id}`, {\n                    method: 'DELETE',\n                    headers: { 'Authorization': `Bearer ${token}` }\n                });\n                loadTodos();\n            } catch (error) {\n                console.error('Delete todo failed:', error);\n            }\n        }\n    </script>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL\" crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "language": "html",
+      "last_updated": "2025-08-28T08:25:24.205044",
+      "checksum": "42657065"
+    }
+  },
+  "project_state": {},
+  "learning_memory": {}
+}

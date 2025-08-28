@@ -1,0 +1,20 @@
+{
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-23T11:01:49.324971",
+      "role": "user",
+      "content": "Hello, AI!",
+      "metadata": {}
+    }
+  ],
+  "code_context": {
+    "test.py": {
+      "content": "print('Hello')",
+      "language": "python",
+      "last_updated": "2025-08-23T11:01:49.324993",
+      "checksum": "19643932"
+    }
+  },
+  "project_state": {},
+  "learning_memory": {}
+}

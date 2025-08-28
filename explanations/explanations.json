@@ -1,0 +1,926 @@
+{
+  "dec_000000": [
+    {
+      "decision_id": "dec_000000",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T11:55:25.386199"
+    },
+    {
+      "decision_id": "dec_000000",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:55:25.386204"
+    }
+  ],
+  "dec_000001": [
+    {
+      "decision_id": "dec_000001",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T11:55:25.386605"
+    },
+    {
+      "decision_id": "dec_000001",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:55:25.386607"
+    }
+  ],
+  "dec_000002": [
+    {
+      "decision_id": "dec_000002",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T11:55:25.386902"
+    },
+    {
+      "decision_id": "dec_000002",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:55:25.386904"
+    }
+  ],
+  "dec_000003": [
+    {
+      "decision_id": "dec_000003",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T11:55:35.945848"
+    },
+    {
+      "decision_id": "dec_000003",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:55:35.945852"
+    }
+  ],
+  "dec_000004": [
+    {
+      "decision_id": "dec_000004",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T11:56:07.704694"
+    },
+    {
+      "decision_id": "dec_000004",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:07.704700"
+    }
+  ],
+  "dec_000005": [
+    {
+      "decision_id": "dec_000005",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T11:56:07.705291"
+    },
+    {
+      "decision_id": "dec_000005",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:07.705294"
+    }
+  ],
+  "dec_000006": [
+    {
+      "decision_id": "dec_000006",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T11:56:07.705732"
+    },
+    {
+      "decision_id": "dec_000006",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:07.705734"
+    }
+  ],
+  "dec_000007": [
+    {
+      "decision_id": "dec_000007",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T11:56:18.036158"
+    },
+    {
+      "decision_id": "dec_000007",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:18.036163"
+    }
+  ],
+  "dec_000008": [
+    {
+      "decision_id": "dec_000008",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T11:56:55.867825"
+    },
+    {
+      "decision_id": "dec_000008",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:55.867832"
+    }
+  ],
+  "dec_000009": [
+    {
+      "decision_id": "dec_000009",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T11:56:55.868667"
+    },
+    {
+      "decision_id": "dec_000009",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:55.868670"
+    }
+  ],
+  "dec_000010": [
+    {
+      "decision_id": "dec_000010",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T11:56:55.869293"
+    },
+    {
+      "decision_id": "dec_000010",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:56:55.869295"
+    }
+  ],
+  "dec_000011": [
+    {
+      "decision_id": "dec_000011",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T11:57:06.181937"
+    },
+    {
+      "decision_id": "dec_000011",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T11:57:06.181941"
+    }
+  ],
+  "dec_000012": [
+    {
+      "decision_id": "dec_000012",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T12:31:11.596444"
+    },
+    {
+      "decision_id": "dec_000012",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:31:11.596448"
+    }
+  ],
+  "dec_000013": [
+    {
+      "decision_id": "dec_000013",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T12:31:11.597507"
+    },
+    {
+      "decision_id": "dec_000013",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:31:11.597509"
+    }
+  ],
+  "dec_000014": [
+    {
+      "decision_id": "dec_000014",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T12:31:11.598696"
+    },
+    {
+      "decision_id": "dec_000014",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:31:11.598699"
+    }
+  ],
+  "dec_000015": [
+    {
+      "decision_id": "dec_000015",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T12:31:21.855464"
+    },
+    {
+      "decision_id": "dec_000015",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:31:21.855480"
+    }
+  ],
+  "dec_000016": [
+    {
+      "decision_id": "dec_000016",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T12:44:09.794092"
+    },
+    {
+      "decision_id": "dec_000016",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:44:09.794096"
+    }
+  ],
+  "dec_000017": [
+    {
+      "decision_id": "dec_000017",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T12:44:09.795418"
+    },
+    {
+      "decision_id": "dec_000017",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:44:09.795421"
+    }
+  ],
+  "dec_000018": [
+    {
+      "decision_id": "dec_000018",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T12:44:09.796437"
+    },
+    {
+      "decision_id": "dec_000018",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:44:09.796439"
+    }
+  ],
+  "dec_000019": [
+    {
+      "decision_id": "dec_000019",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T12:44:20.040005"
+    },
+    {
+      "decision_id": "dec_000019",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:44:20.040010"
+    }
+  ],
+  "dec_000020": [
+    {
+      "decision_id": "dec_000020",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T12:59:18.904034"
+    },
+    {
+      "decision_id": "dec_000020",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:59:18.904037"
+    }
+  ],
+  "dec_000021": [
+    {
+      "decision_id": "dec_000021",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T12:59:18.905386"
+    },
+    {
+      "decision_id": "dec_000021",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:59:18.905388"
+    }
+  ],
+  "dec_000022": [
+    {
+      "decision_id": "dec_000022",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T12:59:18.906514"
+    },
+    {
+      "decision_id": "dec_000022",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:59:18.906516"
+    }
+  ],
+  "dec_000023": [
+    {
+      "decision_id": "dec_000023",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T12:59:29.166413"
+    },
+    {
+      "decision_id": "dec_000023",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T12:59:29.166438"
+    }
+  ],
+  "dec_000024": [
+    {
+      "decision_id": "dec_000024",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T13:32:35.708985"
+    },
+    {
+      "decision_id": "dec_000024",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n\u2022 Express.js\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance web API with automatic documentation and type safety\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django, Express.js\n        \n        Key Factors:\n        - Performance: Excellent async performance\n        - Scalability: Horizontal scaling support\n        - Community Support: Growing, active community\n        - Learning Curve: Team familiar with Python\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance web API with automatic documentation and type safety\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent async performance\",\n    \"scalability\": \"Horizontal scaling support\",\n    \"community\": \"Growing, active community\",\n    \"learning_curve\": \"Team familiar with Python\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T13:32:35.708989"
+    }
+  ],
+  "dec_000025": [
+    {
+      "decision_id": "dec_000025",
+      "explanation_type": "human_readable",
+      "content": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ufffd\ufffd Decision: Selected PostgreSQL as the primary technology\n            \n            I made this choice because:\n            \u2022 Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterpri...\n            \n            This decision will help:\n            \u2022 Improve your project's success\n            \u2022 Reduce development time and costs\n            \u2022 Ensure better quality and reliability\n            ",
+      "timestamp": "2025-08-23T13:32:35.710589"
+    },
+    {
+      "decision_id": "dec_000025",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "technology_selection",
+        "confidence_score": 0.8,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "implementation_time": "Medium",
+          "cost_impact": "Low",
+          "maintenance_overhead": "Low",
+          "future_scalability": "High"
+        },
+        "metadata_keys": [
+          "selected_technology",
+          "selection_criteria",
+          "project_constraints"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Selected PostgreSQL as the primary technology\n        Type: technology_selection\n        Confidence: 80.0%\n        \n        Context:\n        Technology selection for project\n        \n        Alternatives Considered:\n        \u2022 SQLite\n\u2022 MongoDB\n\u2022 MySQL\n        \n        Technical Reasoning:\n        Technology Selection Decision: PostgreSQL\n        \n        Selection Criteria:\n        - Performance: Excellent for complex queries\n        - Cost: Free and open source\n        - Scalability: Enterprise-grade scaling\n        - Security: ACID compliance and advanced security\n        - Integration: Seamless with FastAPI\n        \n        Project Constraints:\n        - Budget: Low budget project\n        - Timeline: 2 weeks\n        - Team Expertise: Intermediate Python developers\n        - Infrastructure: Cloud deployment\n        \n        Why PostgreSQL was chosen:\n        Best fit for project requirements and constraints\n        \n        Impact Assessment:\n        \u2022 implementation_time: Medium\n\u2022 cost_impact: Low\n\u2022 maintenance_overhead: Low\n\u2022 future_scalability: High\n        \n        Metadata:\n        {\n  \"selected_technology\": \"PostgreSQL\",\n  \"selection_criteria\": {\n    \"performance\": \"Excellent for complex queries\",\n    \"cost\": \"Free and open source\",\n    \"scalability\": \"Enterprise-grade scaling\",\n    \"security\": \"ACID compliance and advanced security\",\n    \"integration\": \"Seamless with FastAPI\"\n  },\n  \"project_constraints\": {\n    \"budget\": \"Low budget project\",\n    \"timeline\": \"2 weeks\",\n    \"team_expertise\": \"Intermediate Python developers\",\n    \"infrastructure\": \"Cloud deployment\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T13:32:35.710593"
+    }
+  ],
+  "dec_000026": [
+    {
+      "decision_id": "dec_000026",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83d\udc1b Bug Fix Approach: Chose to implement: Implement comprehensive error handling with retry logic\n            \n            I chose this solution because:\n            \u2022 It directly addresses the root cause\n            \u2022 It's the safest and most reliable fix\n            \u2022 It won't break other parts of your system\n            \u2022 It's easy to test and verify\n            \n            What this means for you:\n            \u2022 The bug will be completely resolved\n            \u2022 Your system will be more stable\n            \u2022 Future similar issues can be prevented\n            \u2022 Minimal disruption to your users\n            ",
+      "timestamp": "2025-08-23T13:32:35.711996"
+    },
+    {
+      "decision_id": "dec_000026",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "bug_fix_approach",
+        "confidence_score": 0.9,
+        "alternatives_count": 3,
+        "impact_metrics": {
+          "fix_time": "Quick",
+          "stability": "High",
+          "maintainability": "Positive",
+          "testing_required": "Minimal"
+        },
+        "metadata_keys": [
+          "bug_description",
+          "chosen_solution",
+          "risk_assessment"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose to implement: Implement comprehensive error handling with retry logic\n        Type: bug_fix_approach\n        Confidence: 90.0%\n        \n        Context:\n        Bug fix approach for: API endpoint returns 500 errors intermittently...\n        \n        Alternatives Considered:\n        \u2022 Add more logging\n\u2022 Increase timeout\n\u2022 Implement circuit breaker\n        \n        Technical Reasoning:\n        Bug Fix Decision: Implement comprehensive error handling with retry logic\n        \n        Bug Description:\n        API endpoint returns 500 errors intermittently\n        \n        Solution Analysis:\n        - Chosen Solution: Implement comprehensive error handling with retry logic\n        - Alternative Solutions: Add more logging, Increase timeout, Implement circuit breaker\n        \n        Reasoning:\n        The intermittent nature suggests race conditions or resource exhaustion. Comprehensive error handling with retries addresses the root cause.\n        \n        Risk Assessment:\n        - Implementation Risk: Low\n        - Regression Risk: Low\n        - Performance Impact: Minimal\n        - Security Implications: None\n        \n        Impact Assessment:\n        \u2022 fix_time: Quick\n\u2022 stability: High\n\u2022 maintainability: Positive\n\u2022 testing_required: Minimal\n        \n        Metadata:\n        {\n  \"bug_description\": \"API endpoint returns 500 errors intermittently\",\n  \"chosen_solution\": \"Implement comprehensive error handling with retry logic\",\n  \"risk_assessment\": {\n    \"implementation_risk\": \"Low\",\n    \"regression_risk\": \"Low\",\n    \"performance_impact\": \"Minimal\",\n    \"security_implications\": \"None\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T13:32:35.711998"
+    }
+  ],
+  "dec_000027": [
+    {
+      "decision_id": "dec_000027",
+      "explanation_type": "human_readable",
+      "content": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "technical_details": {},
+      "human_readable": "\n            \ud83c\udfd7\ufe0f Architecture Decision: Chose FastAPI as the primary framework\n            \n            I chose this approach because:\n            \u2022 It best fits your project requirements\n            \u2022 It's a proven, reliable technology\n            \u2022 Your team can work with it effectively\n            \u2022 It supports future growth and scaling\n            \n            What this means for you:\n            \u2022 Faster development and deployment\n            \u2022 Easier maintenance and updates\n            \u2022 Better performance and reliability\n            \u2022 Lower long-term costs\n            ",
+      "timestamp": "2025-08-23T13:32:45.971045"
+    },
+    {
+      "decision_id": "dec_000027",
+      "explanation_type": "technical",
+      "content": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "technical_details": {
+        "decision_type": "architecture_choice",
+        "confidence_score": 0.85,
+        "alternatives_count": 2,
+        "impact_metrics": {
+          "development_speed": "High - Familiar and well-documented",
+          "maintenance": "Medium - Good community support",
+          "scalability": "High",
+          "risk_level": "Low - Proven technology"
+        },
+        "metadata_keys": [
+          "chosen_framework",
+          "project_requirements",
+          "performance_considerations"
+        ]
+      },
+      "human_readable": "\n        Technical Decision Analysis\n        \n        Decision: Chose FastAPI as the primary framework\n        Type: architecture_choice\n        Confidence: 85.0%\n        \n        Context:\n        Framework selection for project requirements\n        \n        Alternatives Considered:\n        \u2022 Flask\n\u2022 Django\n        \n        Technical Reasoning:\n        I chose FastAPI over the alternatives for the following reasons:\n        \n        Project Requirements Analysis:\n        High-performance API with automatic documentation\n        \n        Framework Comparison:\n        - FastAPI: Best suited for the current requirements\n        - Alternatives considered: Flask, Django\n        \n        Key Factors:\n        - Performance: Excellent\n        - Scalability: High\n        - Community Support: Growing\n        - Learning Curve: Team familiar with similar technologies\n        \n        Impact Assessment:\n        \u2022 development_speed: High - Familiar and well-documented\n\u2022 maintenance: Medium - Good community support\n\u2022 scalability: High\n\u2022 risk_level: Low - Proven technology\n        \n        Metadata:\n        {\n  \"chosen_framework\": \"FastAPI\",\n  \"project_requirements\": \"High-performance API with automatic documentation\",\n  \"performance_considerations\": {\n    \"performance\": \"Excellent\",\n    \"scalability\": \"High\",\n    \"community\": \"Growing\"\n  }\n}\n        ",
+      "timestamp": "2025-08-23T13:32:45.971058"
+    }
+  ]
+}

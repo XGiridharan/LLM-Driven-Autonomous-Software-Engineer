@@ -1,0 +1,62 @@
+{
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-23T13:06:04.378662",
+      "role": "user",
+      "content": "How do I create a REST API with authentication?",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:04.378699",
+      "role": "assistant",
+      "content": "To create a REST API with authentication, use FastAPI with JWT tokens. Here's a complete example...",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:04.378705",
+      "role": "user",
+      "content": "Fix this database connection error",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:04.378708",
+      "role": "assistant",
+      "content": "The connection error is likely due to incorrect connection string. Check your DATABASE_URL format...",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:30.813715",
+      "role": "user",
+      "content": "How do I create a REST API with authentication?",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:30.813744",
+      "role": "assistant",
+      "content": "To create a REST API with authentication, use FastAPI with JWT tokens. Here's a complete example...",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:30.813749",
+      "role": "user",
+      "content": "Fix this database connection error",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:06:30.813752",
+      "role": "assistant",
+      "content": "The connection error is likely due to incorrect connection string. Check your DATABASE_URL format...",
+      "metadata": {}
+    }
+  ],
+  "code_context": {
+    "auth.py": {
+      "content": "from fastapi import FastAPI, HTTPException\napp = FastAPI()\n@app.post('/login')\ndef login(): pass",
+      "language": "python",
+      "last_updated": "2025-08-23T13:06:30.813755",
+      "checksum": "05436259"
+    }
+  },
+  "project_state": {},
+  "learning_memory": {}
+}

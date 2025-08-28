@@ -1,0 +1,38 @@
+{
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-23T13:42:41.108763",
+      "role": "user",
+      "content": "Create an e-commerce web application with product catalog, shopping cart, user authentication, payment integration, order management, and admin panel. Include product search, filtering, reviews, and inventory management.",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-08-23T13:42:41.108921",
+      "role": "assistant",
+      "content": "Development plan created with 8 tasks",
+      "metadata": {}
+    }
+  ],
+  "code_context": {
+    "generated_projects/online_store/models.py": {
+      "content": "For this task, you'll need:\n\n```python\nimport requests\nimport json\n\n# API call example\ndef make_request():\n    response = requests.get('https://api.example.com')\n    return response.json()\n```\n\nThis is a Python-specific solution.",
+      "language": "python",
+      "last_updated": "2025-08-23T13:42:41.109689",
+      "checksum": "38535074"
+    },
+    "generated_projects/online_store/main.py": {
+      "content": "For this task, you'll need:\n\n```python\nimport requests\nimport json\n\n# API call example\ndef make_request():\n    response = requests.get('https://api.example.com')\n    return response.json()\n```\n\nThis is a Python-specific solution.",
+      "language": "python",
+      "last_updated": "2025-08-23T13:42:41.110090",
+      "checksum": "38535074"
+    },
+    "generated_projects/online_store/frontend.html": {
+      "content": "For this task, you'll need:\n\n```python\nimport requests\nimport json\n\n# API call example\ndef make_request():\n    response = requests.get('https://api.example.com')\n    return response.json()\n```\n\nThis is a JavaScript/React-specific solution.",
+      "language": "html",
+      "last_updated": "2025-08-23T13:42:41.110352",
+      "checksum": "70794795"
+    }
+  },
+  "project_state": {},
+  "learning_memory": {}
+}

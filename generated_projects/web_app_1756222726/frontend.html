@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { font-family: sans-serif; }
+        .note-container { margin-top: 20px; }
+        .note-item { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Note Taking App</h1>
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Enter title">
+        </div>
+        <div class="form-group">
+            <label for="content">Content</label>
+            <textarea class="form-control" id="content" rows="3" placeholder="Enter content"></textarea>
+        </div>
+        <button id="saveNote" class="btn btn-primary">Save Note</button>
+        <div class="note-container">
+            </div>
+    </div>
+    <script>
+        const titleInput = document.getElementById('title');
+        const contentInput = document.getElementById('content');
+        const saveNoteButton = document.getElementById('saveNote');
+        const noteContainer = document.querySelector('.note-container');
+
+        saveNoteButton.addEventListener('click', async () => {
+            const title = titleInput.value;
+            const content = contentInput.value;
+
+            if (!title || !content) {
+                alert('Please fill in both title and content.');
+                return;
+            }
+
+            try {
+                const response = await fetch('/notes', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ title, content, user_id: 1 }) //Replace 1 with actual user ID
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displayNote(data);
+                titleInput.value = '';
+                contentInput.value = '';
+            } catch (error) {
+                console.error('Error saving note:', error);
+                alert('Error saving note. Please try again.');
+            }
+        });
+
+
+        const displayNote = (note) => {
+            const noteItem = document.createElement('div');
+            noteItem.classList.add('note-item');
+            noteItem.innerHTML = `<h3>${note.title}</h3><p>${note.content}</p>`;
+            noteContainer.appendChild(noteItem);
+        };
+
+        const fetchNotes = async () => {
+            try {
+              const response = await fetch('/notes');
+              if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+              }
+              const notes = await response.json();
+              notes.forEach(displayNote);
+            } catch (error) {
+              console.error('Error fetching notes:', error);
+            }
+          };
+          fetchNotes();
+    </script>
+</body>
+</html>

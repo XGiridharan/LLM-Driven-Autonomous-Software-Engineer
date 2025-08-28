@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  # n8n workflow automation platform
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n-autonomous
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=0.0.0.0
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - N8N_USER_MANAGEMENT_DISABLED=true
+      - N8N_BASIC_AUTH_ACTIVE=false
+      - WEBHOOK_URL=http://localhost:5678/
+      - GENERIC_TIMEZONE=UTC
+      - N8N_LOG_LEVEL=info
+      - N8N_DIAGNOSTICS_ENABLED=false
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./n8n-workflows:/home/node/.n8n/workflows
+    networks:
+      - autonomous-network
+
+  # Autonomous Software Engineer API
+  autonomous-api:
+    build: .
+    container_name: autonomous-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - N8N_URL=http://n8n:5678
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./generated_projects:/app/generated_projects
+      - ./memory:/app/memory
+    depends_on:
+      - n8n
+    networks:
+      - autonomous-network
+
+  # Redis for caching and session management
+  redis:
+    image: redis:7-alpine
+    container_name: autonomous-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - autonomous-network
+
+  # PostgreSQL for n8n (optional, for production)
+  postgres:
+    image: postgres:15-alpine
+    container_name: autonomous-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=n8n
+      - POSTGRES_USER=n8n
+      - POSTGRES_PASSWORD=n8n_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - autonomous-network
+
+volumes:
+  n8n_data:
+  redis_data:
+  postgres_data:
+
+networks:
+  autonomous-network:
+    driver: bridge
